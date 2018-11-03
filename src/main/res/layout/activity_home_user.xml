@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".HomeUser">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_HomeUser"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_home_user" />
+
+   <!-- <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnMes"
+        android:layout_marginBottom="16dp"
+        android:text="LogOut" />
+
+    <Button
+        android:id="@+id/btnMes"
+        android:layout_width="123dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="158dp"
+        android:text="Movimientos del mes" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="123dp"
+        android:layout_height="68dp"
+
+        android:layout_alignStart="@+id/btnPorCategoria"
+        android:layout_alignTop="@+id/btnCrearCat"
+        android:text="Ingresar movimiento" />
+
+    <Button
+        android:id="@+id/btnPorCategoria"
+        android:layout_width="123dp"
+        android:layout_height="68dp"
+
+        android:layout_alignStart="@+id/btnEditUser"
+        android:layout_alignTop="@+id/btnMes"
+        android:text="Movimientos por categoria" />
+
+    <Button
+        android:id="@+id/btnAnuales"
+        android:layout_width="123dp"
+        android:layout_height="68dp"
+        android:layout_alignStart="@+id/btnMes"
+        android:layout_centerVertical="true"
+        android:text="Movimientos anuales" />
+
+    <Button
+        android:id="@+id/btnEditUser"
+        android:layout_width="123dp"
+        android:layout_height="68dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnAnuales"
+        android:layout_marginEnd="36dp"
+        android:text="Editar" />
+
+    <Button
+        android:id="@+id/btnCrearCat"
+        android:layout_width="123dp"
+        android:layout_height="68dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignStart="@+id/btnMes"
+        android:layout_marginTop="69dp"
+        android:text="Crear Categoria" />-->
+
+</RelativeLayout>

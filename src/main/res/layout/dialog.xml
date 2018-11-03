@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/dialogTxtCat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:text="Categoria:"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <Spinner
+        android:id="@+id/SpinnerdialogCat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dialogTxtCat" />
+
+    <TextView
+        android:id="@+id/dialogTxtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/SpinnerdialogCat"
+        android:text="Descripcion:"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/dialogEdtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dialogTxtDesc" />
+
+    <TextView
+        android:id="@+id/dialogTxtTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dialogEdtDesc"
+        android:text="Tipo:"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <Spinner
+        android:id="@+id/SpinnerdialogTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dialogTxtTipo" />
+
+    <TextView
+        android:id="@+id/dialogTxtMonto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/SpinnerdialogTipo"
+        android:text="Monto:"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/dialogEdtMonto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dialogTxtMonto"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="115dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/dialogTxtCant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dialogEdtMonto"
+        android:text="Cant:"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/dialogEdtCant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dialogTxtCant"
+        android:inputType="number"
+       />
+
+    <Button
+
+        android:id="@+id/btnDialogCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="97dp"
+        android:layout_marginStart="32dp"
+        android:text="Cancelar" />
+
+    <Button
+
+        android:id="@+id/btnDialogBorrar"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/dialogEdtCant"
+        android:layout_centerHorizontal="true"
+        android:text="Borrar" />
+
+    <Button
+
+        android:id="@+id/btnDialogAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="89dp"
+        android:layout_marginEnd="44dp"
+        android:text="Aceptar" />
+
+</RelativeLayout>

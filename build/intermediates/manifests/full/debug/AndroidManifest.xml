@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.holamundo.app1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.android.holamundo.app1.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.holamundo.app1.DatosPersonales"
+            android:label="@string/title_activity_datos_personales"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.DatosPersonales" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.holamundo.app1.CreacionCompleta"
+            android:label="@string/title_activity_creacion_completa"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.CreacionCompleta" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.holamundo.app1.Registrarse"
+            android:label="Registrarse"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.Registrarse" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.holamundo.app1.Home"
+            android:label="@string/title_activity_home"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.android.holamundo.app1.Login"
+            android:label="@string/title_activity_login"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.android.holamundo.app1.HomeUser"
+            android:label="@string/title_activity_home_user"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.android.holamundo.app1.EditUser"
+            android:label="@string/title_activity_edit_user"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.android.holamundo.app1.ListarCategorias"
+            android:label="@string/title_activity_listar_categorias"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.android.holamundo.app1.NuevaCategoria"
+            android:label="@string/title_activity_nueva_categoria"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.android.holamundo.app1.GridImage" />
+        <activity
+            android:name="com.android.holamundo.app1.IngresarMovimiento"
+            android:label="@string/title_activity_ingresar_movimiento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.android.holamundo.app1.HomeNavigate"
+            android:label="@string/title_activity_home_navigate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.android.holamundo.app1.listar_categoria"
+            android:label="@string/title_activity_listar_categoria"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.android.holamundo.app1.Cuotas"
+            android:label="@string/title_activity_cuotas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.android.holamundo.app1.Deudas"
+            android:label="@string/title_activity_deudas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.android.holamundo.app1.ResumenMensual"
+            android:label="@string/title_activity_resumen_mensual"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.android.holamundo.app1.ResumenAnual"
+            android:label="@string/title_activity_resumen_anual"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

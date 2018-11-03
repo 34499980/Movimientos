@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/btnCrearCat"
+
+            android:title="Categoria" />
+        <item
+            android:id="@+id/btnIngresar"
+
+            android:title="Ingrsar Movimiento" />
+        <item
+            android:id="@+id/btnMes"
+
+            android:title="Resumen por mes" />
+        <item
+            android:id="@+id/btnAnuales"
+
+            android:title="Resumen anual" />
+        <item
+            android:id="@+id/btnCuotas"
+
+            android:title="Cuotas" />
+        <item
+            android:id="@+id/btnDeudas"
+
+            android:title="Deudas" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/btnEditUser"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+            <item
+                android:id="@+id/btnLogOut"
+
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

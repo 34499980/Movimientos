@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Movimientos</string>
+    <string name="action_settings">Settings</string>
+    <string name="nuevo_usuario">Creacion de usuario</string>
+    <string name="title_activity_datos_personales">DatosPersonales</string>
+    <string name="title_activity_creacion_completa">CreacionCompleta</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home_user">HomeUser</string>
+    <string name="title_activity_edit_user">EditUser</string>
+    <string name="title_activity_listar_categorias">ListarCategorias</string>
+    <string name="title_activity_nueva_categoria">NuevaCategoria</string>
+    <string name="title_activity_ingresar_movimiento">IngresarMovimiento</string>
+    <string name="title_activity_home_navigate">HomeNavigate</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_listar_categoria">listar_categoria</string>
+    <string name="title_activity_cuotas">Cuotas</string>
+    <string name="title_activity_deudas">Deudas</string>
+    <string name="title_activity_resumen_mensual">ResumenMensual</string>
+    <string name="title_activity_resumen_anual">ResumenAnual</string>
+
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.holamundo.app1">
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DatosPersonales"
+            android:label="@string/title_activity_datos_personales"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.DatosPersonales" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreacionCompleta"
+            android:label="@string/title_activity_creacion_completa"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.CreacionCompleta" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Registrarse"
+            android:label="Registrarse"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.Registrarse" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeUser"
+            android:label="@string/title_activity_home_user"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditUser"
+            android:label="@string/title_activity_edit_user"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListarCategorias"
+            android:label="@string/title_activity_listar_categorias"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NuevaCategoria"
+            android:label="@string/title_activity_nueva_categoria"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".GridImage" />
+        <activity
+            android:name=".IngresarMovimiento"
+            android:label="@string/title_activity_ingresar_movimiento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeNavigate"
+            android:label="@string/title_activity_home_navigate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".listar_categoria"
+            android:label="@string/title_activity_listar_categoria"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cuotas"
+            android:label="@string/title_activity_cuotas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Deudas"
+            android:label="@string/title_activity_deudas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResumenMensual"
+            android:label="@string/title_activity_resumen_mensual"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResumenAnual"
+            android:label="@string/title_activity_resumen_anual"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>
