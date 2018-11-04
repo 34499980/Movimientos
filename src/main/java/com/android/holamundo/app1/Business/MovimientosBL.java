@@ -535,11 +535,11 @@ public class MovimientosBL {
     }
     public static List<Totales> SortTotalesByMes(SQLiteDatabase db, Map<String,List<Movimiento>> list){
         int tipoAnt;
-        int añoAnt;
-        int mesAnt;
+        int añoAnt, firstAño, lastAño;
+        int mesAnt, firstMes,lastMes;
         int indexCuotas;
         int indexDeuda;
-        Totales total;
+        Totales total = new Totales();
         int index=0;
         List<Deuda> listDeudas = GetAllDeudas(db);
         List<Cuota> listCuotas = GetAllCuotas(db);
@@ -547,99 +547,74 @@ public class MovimientosBL {
         List<Movimiento> listIngresos = list.get("Ingresos");
         List<Movimiento> listVenta = list.get("Venta");
         List<Movimiento> listCompra = list.get("Compra");
+        firstAño = listCompra.get(0).Año;
+        lastAño = listCompra.get(listCompra.size()-1).Año;
+        firstMes = listCompra.get(0).IdMes;
+        lastMes = listCompra.get(listCompra.size()-1).IdMes;
 
-        while(index < listCompra.size()){
-            total = new Totales();
-            total.Año=listCompra.get(index).Año;
-            añoAnt = listCompra.get(index).Año;
-            while(index< listCompra.size() && añoAnt == listCompra.get(index).Año){
-                mesAnt = listCompra.get(index).IdMes;
-                total.Mes = listCompra.get(index).IdMes;
-                while(index< listCompra.size() && añoAnt == listCompra.get(index).Año && mesAnt ==listCompra.get(index).IdMes){
-                        indexCuotas = General.GetIndexCuota(listCuotas,listCompra.get(index).IdMovimiento);
-                        indexDeuda = General.GetIndexDeuda(listDeudas,listCompra.get(index).IdMovimiento);
+
+
+        while(firstAño-1 != lastAño)
+        {
+            total.Año = lastAño;
+            total.Mes = lastMes;
+            List<Movimiento> movimientos = GetMovimientosByMes(db,lastMes,lastAño);
+            index = movimientos.size()-1;
+            while(index > Constants.FinLista){
+
+                switch (movimientos.get(index).IdTipo){
+                    case Constants.Compra:
+                        indexCuotas = General.GetIndexCuota(listCuotas,movimientos.get(index).IdMovimiento);
+                        indexDeuda = General.GetIndexDeuda(listDeudas,movimientos.get(index).IdMovimiento);
                         if (indexCuotas > Constants.FinLista) {
-                            listCompra.get(index).Monto = listCuotas.get(indexCuotas).Monto;
+                            movimientos.get(index).Monto = listCuotas.get(indexCuotas).Monto;
                         }
                         if (indexDeuda > Constants.FinLista) {
-                            listCompra.get(index).Monto = listDeudas.get(indexDeuda).Monto;
+                            movimientos.get(index).Monto = listDeudas.get(indexDeuda).Monto;
                         }
 
-                            total.Compra +=  listCompra.get(index).Monto;
-                        index ++;
+                        total.Compra +=  movimientos.get(index).Monto;
+                        break;
+                    case Constants.Venta:
+                        indexCuotas = General.GetIndexCuota(listCuotas,movimientos.get(index).IdMovimiento);
+                        indexDeuda = General.GetIndexDeuda(listDeudas,movimientos.get(index).IdMovimiento);
+                        if (indexCuotas > Constants.FinLista) {
+                            movimientos.get(index).Monto = listCuotas.get(indexCuotas).Monto;
+                        }
+                        if (indexDeuda > Constants.FinLista) {
+                            movimientos.get(index).Monto = listDeudas.get(indexDeuda).Monto;
+                        }
 
+                        total.Venta +=  movimientos.get(index).Monto;
+                        break;
+                    case Constants.Ingreso:
+                        indexCuotas = General.GetIndexCuota(listCuotas,movimientos.get(index).IdMovimiento);
+                        indexDeuda = General.GetIndexDeuda(listDeudas,movimientos.get(index).IdMovimiento);
+                        if (indexCuotas > Constants.FinLista) {
+                            movimientos.get(index).Monto = listCuotas.get(indexCuotas).Monto;
+                        }
+                        if (indexDeuda > Constants.FinLista) {
+                            movimientos.get(index).Monto = listDeudas.get(indexDeuda).Monto;
+                        }
+
+                        total.Ingreso +=  movimientos.get(index).Monto;
+                        break;
                 }
+                index--;
+            }
+            total.Saldo = (total.Ingreso+total.Venta)-total.Compra;
+            if(total.Compra != 0 || total.Venta != 0 || total.Ingreso != 0) {
                 listTotales.add(total);
             }
-        }
-        index = 0;
-        while(index < listVenta.size()){
+            total = new Totales();
+            lastMes--;
+            if(lastMes <= 0 && lastAño > firstAño-1){
+                lastMes = 12;
+                lastAño--;
 
-            añoAnt = listVenta.get(index).Año;
-            while(index< listVenta.size() && añoAnt == listVenta.get(index).Año){
-                mesAnt = listVenta.get(index).IdMes;
-                int indexTotal = GetIndexTotal(listTotales,listVenta.get(index).Año,listVenta.get(index).IdMes);
-                if(indexTotal == Constants.FinLista){
-                    total = new Totales();
-                    total.Año = listVenta.get(index).Año;
-                    total.Mes = listVenta.get(index).IdMes;
-                }else{
-                    total = listTotales.get(indexTotal);
-                }
-                while(index< listVenta.size() && añoAnt == listVenta.get(index).Año && mesAnt == listVenta.get(index).IdMes){
-                    indexCuotas = General.GetIndexCuota(listCuotas,listVenta.get(index).IdMovimiento);
-                    indexDeuda = General.GetIndexDeuda(listDeudas,listVenta.get(index).IdMovimiento);
-                    if (indexCuotas > Constants.FinLista) {
-                        listVenta.get(index).Monto = listCuotas.get(indexCuotas).Monto;
-                    }
-                    if (indexDeuda > Constants.FinLista) {
-                        listVenta.get(index).Monto = listDeudas.get(indexDeuda).Monto;
-                    }
-
-                    total.Venta +=  listVenta.get(index).Monto;
-                    index ++;
-
-
-                }
-                if(indexTotal == Constants.FinLista){
-                    listTotales.add(total);
-                }
             }
         }
-        index = 0;
-        while(index < listIngresos.size()){
 
-            añoAnt = listIngresos.get(index).Año;
-            while(index< listIngresos.size() && añoAnt == listIngresos.get(index).Año){
-                mesAnt = listIngresos.get(index).IdMes;
-                int indexTotal = GetIndexTotal(listTotales,listIngresos.get(index).Año,listIngresos.get(index).IdMes);
-                if(indexTotal == Constants.FinLista){
-                    total = new Totales();
-                    total.Año = listIngresos.get(index).Año;
-                    total.Mes = listIngresos.get(index).IdMes;
-                }else{
-                    total = listTotales.get(indexTotal);
-                }
-                while(index< listIngresos.size() && añoAnt == listIngresos.get(index).Año && mesAnt == listIngresos.get(index).IdMes){
-                    indexCuotas = General.GetIndexCuota(listCuotas,listIngresos.get(index).IdMovimiento);
-                    indexDeuda = General.GetIndexDeuda(listDeudas,listIngresos.get(index).IdMovimiento);
-                    if (indexCuotas > Constants.FinLista) {
-                        listIngresos.get(index).Monto = listCuotas.get(indexCuotas).Monto;
-                    }
-                    if (indexDeuda > Constants.FinLista) {
-                        listIngresos.get(index).Monto = listDeudas.get(indexDeuda).Monto;
-                    }
-
-                    total.Ingreso +=  listIngresos.get(index).Monto;
-                    index ++;
-
-
-                }
-                if(indexTotal == Constants.FinLista){
-                    listTotales.add(total);
-                }
-            }
-        }
 
     return listTotales;
     }

@@ -1,4 +1,4 @@
-#Mon Oct 15 21:50:56 ART 2018
-base.0=C\:\\Proyectos\\AndroidProjects\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\71
+#Sun Nov 04 20:30:37 ART 2018
+base.0=C\:\\Proyectos\\AndroidProjects\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\176
 path.0=classes.dex
 renamed.0=classes.dex

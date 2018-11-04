@@ -358,7 +358,7 @@ public class ResumenMensual extends AppCompatActivity {
                                 Ingresos.put("Descripcion", edtDesc.getText().toString());
                                 Ingresos.put("Monto", edtMonto.getText().toString());
                                 Ingresos.put("Cant", edtCant.getText().toString());
-                                Ingresos.put("IdMovimiento", String.valueOf(index));
+                                Ingresos.put("IdMovimiento", String.valueOf(listMovimientos.get(index).IdMovimiento));
                                 MovimientosBL.UpdateMovimiento(db, Ingresos);
 
                                 int indexCuotas = General.GetIndexCuota(listCuotas,listMovimientos.get(index).IdMovimiento);
@@ -408,7 +408,7 @@ public class ResumenMensual extends AppCompatActivity {
                                     MovimientosBL.DeleteDeuda(db, listDeudas.get(indexDeuda).IdDeuda);
 
                                 }
-                                MovimientosBL.DeleteMovimientoById(db, index);
+                                MovimientosBL.DeleteMovimientoById(db, listMovimientos.get(index).IdMovimiento);
                                 Intent intent = new Intent(ResumenMensual.this, ResumenMensual.class);
                                 finish();
                                 startActivity(intent);
