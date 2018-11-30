@@ -224,7 +224,7 @@ public class ResumenMensual extends AppCompatActivity {
                         int indexDeudas;
                         int i = 0;
                         int j =0;
-                        while(j < listMovimientos.size()-1){
+                        while(j < listMovimientos.size()){
 
                                 if (!bCabecera) {
                                     table[i][0] = ConfiguracionGeneralBL.GetUsabilidad(db);
@@ -239,19 +239,20 @@ public class ResumenMensual extends AppCompatActivity {
                                 } else {
                                     indexCuotas = General.GetIndexCuota(listCuotas, listMovimientos.get(i).IdMovimiento);
                                     indexDeudas = General.GetIndexDeuda(listDeudas, listMovimientos.get(i).IdMovimiento);
-                                    table[i][0] = CategoriaBL.getCategoriaById(listMovimientos.get(i).IdCategoria, db).nombre;
-                                    table[i][1] = listMovimientos.get(i).Descripcion;
-                                    table[i][2] = CategoriaBL.getTipoById(listMovimientos.get(i).IdTipo, db).Descripcion;
-                                    table[i][3] = indexCuotas > Constants.FinLista ? String.valueOf(listCuotas.get(indexCuotas).Monto) : String.valueOf(listMovimientos.get(i).Monto);
-                                    table[i][4] = listMovimientos.get(i).Cant != Constants.FinLista ? String.valueOf(listMovimientos.get(i).Cant):"";
-                                    table[i][5] = indexDeudas > Constants.FinLista ? String.valueOf(listDeudas.get(indexDeudas).Monto) : "";
-                                    table[i][6] = indexCuotas > Constants.FinLista ? String.valueOf(listCuotas.get(indexCuotas).CuotaActual + "/" + listCuotas.get(indexCuotas).CantCuotas) : "";
-                                    table[i][7] = listMovimientos.get(i).Fecha;
+                                    table[i+1][0] = CategoriaBL.getCategoriaById(listMovimientos.get(i).IdCategoria, db).nombre;
+                                    table[i+1][1] = listMovimientos.get(i).Descripcion;
+                                    table[i+1][2] = CategoriaBL.getTipoById(listMovimientos.get(i).IdTipo, db).Descripcion;
+                                    table[i+1][3] = indexCuotas > Constants.FinLista ? String.valueOf(listCuotas.get(indexCuotas).Monto) : String.valueOf(listMovimientos.get(i).Monto);
+                                    table[i+1][4] = listMovimientos.get(i).Cant != Constants.FinLista ? String.valueOf(listMovimientos.get(i).Cant):"";
+                                    table[i+1][5] = indexDeudas > Constants.FinLista ? String.valueOf(listDeudas.get(indexDeudas).Monto) : "";
+                                    table[i+1][6] = indexCuotas > Constants.FinLista ? String.valueOf(listCuotas.get(indexCuotas).CuotaActual + "/" + listCuotas.get(indexCuotas).CantCuotas) : "";
+                                    table[i+1][7] = listMovimientos.get(i).Fecha;
                                     j++;
+                                    i++;
                                }
 
 
-                            i++;
+
 
                         }
 
@@ -535,7 +536,7 @@ public class ResumenMensual extends AppCompatActivity {
             String message;
             String attachmentFile;
            // Uri URI = Uri.parse(file.getPath());
-            Uri uri = Uri.fromFile(new File(Environment.getExternalStorageDirectory().getAbsolutePath(),file.getName() ));
+            Uri uri = Uri.fromFile(new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/Document",file.getName() ));
 
             email = UsuariosBL.getUsuarioById(db,user.Id).Mail;
             subject ="Movimientos";
@@ -552,7 +553,8 @@ public class ResumenMensual extends AppCompatActivity {
 
 
         }catch (Exception ex){
-            file.delete();
+           // file.delete();
+            Toast.makeText(getApplicationContext(), "Error al compartir el excel", Toast.LENGTH_LONG).show();
         }
     }
    private void CargarTipos(){

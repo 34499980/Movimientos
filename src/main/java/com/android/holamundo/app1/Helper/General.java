@@ -143,7 +143,7 @@ public class General extends Activity {
             directory.mkdirs();
         }
         try {
-            File file = new File(directory, csvFile);
+            File file = new File(directory+"/Document", csvFile);
             WorkbookSettings wbSettings = new WorkbookSettings();
             wbSettings.setLocale(new Locale("en", "EN"));
             WritableWorkbook workbook;
