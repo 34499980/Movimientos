@@ -17,24 +17,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b2c1d8d9-f3a4-419d-a695-d77aff9e60f8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app.iml" afterPath="$PROJECT_DIR$/app.iml" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/build/intermediates/build-info/debug/build-info.xml" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/Helper/General.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/Helper/General.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual$2.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual$3.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual$4$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual$4$1.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual$4$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual$4$2.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual$4$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual$4$3.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual$4.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual$5.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/ResumenMensual.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/Helper/General.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/Helper/General.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$2.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$2.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$3.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$3.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$4$1.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$4$1.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$4$2.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$4$2.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$4$3.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$4$3.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$4.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$4.class" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/Business/MovimientosBL.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/Business/MovimientosBL.class" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/Business/MovimientosBL.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/Business/MovimientosBL.class" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$5.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$5.class" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual.class" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" />
@@ -51,70 +36,25 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/instant-run-apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-apk/debug/app-debug.apk" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_0.apk" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_2.apk" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_3.apk" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_5.apk" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_6.apk" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_7.apk" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_8.apk" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0.jar" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/__content__.json" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/CreacionCompleta.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/CreacionCompleta.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Cuotas.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Cuotas.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/DataBase/DataBase.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/DataBase/DataBase.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/DatosPersonales.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/DatosPersonales.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Deudas.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Deudas.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/EditUser.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/EditUser.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/GridImage.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/GridImage.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Helper/General.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Helper/General.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Helper/ImageAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Helper/ImageAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Helper/SpinnerAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Helper/SpinnerAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/HomeNavigate.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/HomeNavigate.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/IngresarMovimiento.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/IngresarMovimiento.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ListarCategorias.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ListarCategorias.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Login.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Login.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/MainActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/MainActivity.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/NuevaCategoria.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/NuevaCategoria.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Registrarse.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Registrarse.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenAnual.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenAnual.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$2.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$3.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$3.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$4$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$4$1.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$4$2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$4$2.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$4$3.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$4$3.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$4.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$4.class" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Business/MovimientosBL.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Business/MovimientosBL.class" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$5.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$5.class" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual.class" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/__content__.json" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/5/com/android/holamundo/app1/Business/MovimientosBL.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/5/com/android/holamundo/app1/Business/MovimientosBL.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/5/com/android/holamundo/app1/Helper/General.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/5/com/android/holamundo/app1/Helper/General.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/5/com/android/holamundo/app1/Helper/ImageAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/5/com/android/holamundo/app1/Helper/ImageAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/5/com/android/holamundo/app1/Helper/SpinnerAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/5/com/android/holamundo/app1/Helper/SpinnerAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/android/holamundo/app1/DataBase/DataBase.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/6/com/android/holamundo/app1/DataBase/DataBase.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/CreacionCompleta.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/CreacionCompleta.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/Cuotas.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/Cuotas.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/DatosPersonales.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/DatosPersonales.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/Deudas.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/Deudas.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/EditUser.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/EditUser.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/GridImage.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/GridImage.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/HomeNavigate.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/HomeNavigate.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/IngresarMovimiento.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/IngresarMovimiento.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ListarCategorias.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ListarCategorias.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/Login.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/Login.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/MainActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/MainActivity.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/NuevaCategoria.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/NuevaCategoria.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/Registrarse.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/Registrarse.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenAnual.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenAnual.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$2.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$3.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$3.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$4$1.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$4$1.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$4$2.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$4$2.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$4$3.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$4$3.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$4.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$4.class" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$5.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$5.class" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual.class" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/__content__.json" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/debug/app-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Helper/General.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Helper/General.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/ResumenMensual.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/ResumenMensual.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Business/MovimientosBL.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Business/MovimientosBL.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -148,22 +88,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ResumenMensual.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/ResumenMensual.java">
+      <file leaf-file-name="ResumenAnual.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/ResumenAnual.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="556" column="80" lean-forward="false" selection-start-line="556" selection-start-column="80" selection-end-line="556" selection-end-column="80" />
+            <state relative-caret-position="161">
+              <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="General.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Helper/General.java">
+      <file leaf-file-name="MovimientosBL.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Business/MovimientosBL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2465">
-              <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="222">
+              <caret line="608" column="72" lean-forward="false" selection-start-line="608" selection-start-column="72" selection-end-line="608" selection-end-column="72" />
+              <folding>
+                <element signature="method#IngresarCuotas#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#IngresarDeuda#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#GetCuotaByIdMovimiento#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#GetTotales#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#GetAllCuotas#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#GetMovimientoById#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#GetAllDeudas#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#UpdateDeuda#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#UpdateTotalDeuda#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#UpdateTotalCuota#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#DeleteCuota#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#DeleteDeuda#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#ActualizarCuotas#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#GetMovimientosProcesados#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#GetCategoriaByName#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#GetTipoByName#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#DeleteMovimientoById#0;class#MovimientosBL#0" expanded="false" />
+                <element signature="method#GetAllMvimientosSorted#0;class#MovimientosBL#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2136,11 +2095,11 @@
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_nueva_categoria.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_listar_categorias.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Business/MovimientosBL.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/dialogcategoria.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Helper/General.java" />
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/ResumenMensual.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Business/MovimientosBL.java" />
       </list>
     </option>
   </component>
@@ -2166,6 +2125,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
@@ -2177,15 +2138,19 @@
             <path>
               <item name="app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="app1" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2584,7 +2549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542581553779</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Arreglo la creación del excel">
+      <created>1543594318343</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1543594318343</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2619,7 +2591,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3897436" sideWeight="0.4828851" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3897436" sideWeight="0.4828851" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2700,7 +2672,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="Finalizo pantalla de deuda" />
     <MESSAGE value="Arreglo el click de la deuda." />
     <MESSAGE value="Arreglo edit vacio en deudas" />
     <MESSAGE value="Actualiza movimientos en pantalla de resumen por mes" />
@@ -2725,7 +2696,8 @@
     <MESSAGE value="Saco el fondo de la lista" />
     <MESSAGE value="Solucion de errores en resumen anual y mensual" />
     <MESSAGE value="Agrando scroll de categoria" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agrando scroll de categoria" />
+    <MESSAGE value="Arreglo la creación del excel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arreglo la creación del excel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2826,18 +2798,34 @@
           <properties />
           <option name="timeStamp" value="257" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Business/MovimientosBL.java</url>
+          <line>621</line>
+          <properties />
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="258" />
+      <option name="time" value="264" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="app">
-        <watch expression="ex" language="JAVA" />
-        <watch expression="ex" language="JAVA" />
+        <watch expression="listMovmientos" language="JAVA" />
+        <watch expression="listTotales" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>listTotales</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>listMovmientos</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>ex</expression-string>
         <language-id>JAVA</language-id>
@@ -2870,21 +2858,6 @@
       </expression>
       <expression>
         <expression-string>listCompra</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>listTotales</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>movimientos</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>firstMes</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -3179,14 +3152,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/ResumenAnual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="132" column="33" lean-forward="false" selection-start-line="132" selection-start-column="33" selection-end-line="132" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3214,7 +3179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3225,34 +3189,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Business/MovimientosBL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3179">
-          <caret line="559" column="31" lean-forward="false" selection-start-line="559" selection-start-column="31" selection-end-line="559" selection-end-column="31" />
-          <folding>
-            <element signature="method#IngresarCuotas#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#IngresarDeuda#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#GetCuotaByIdMovimiento#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#GetTotales#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#GetAllCuotas#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#GetMovimientoById#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#GetAllDeudas#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#UpdateDeuda#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#UpdateTotalDeuda#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#UpdateTotalCuota#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#DeleteCuota#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#DeleteDeuda#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#GetMovimientosByMes#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#ActualizarCuotas#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#GetMovimientosProcesados#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#GetCategoriaByName#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#GetTipoByName#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#DeleteMovimientoById#0;class#MovimientosBL#0" expanded="false" />
-            <element signature="method#GetAllMvimientosSorted#0;class#MovimientosBL#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_home_navigate.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -3260,7 +3196,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3293,110 +3228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <marker date="1256393464000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1256393464000" expanded="false" signature="127:285" ph="..." />
-            <marker date="1256393464000" expanded="true" signature="1784:4145" ph="{...}" />
-            <marker date="1256393464000" expanded="false" signature="4187:4198" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="4222:4228" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="4263:4274" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="4300:4306" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="4350:4361" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="4387:4393" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="4430:4441" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="4469:4475" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="4517:4528" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="4557:4563" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="4599:4610" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="4633:4639" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="4678:4689" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="4715:4721" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="4766:4777" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="4800:4806" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="4854:4865" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="4891:4897" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="4944:4955" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="4989:4995" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="5044:5055" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="5091:5097" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="5149:5160" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="5199:5205" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="5255:5266" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="5303:5309" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="5353:5364" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="5395:5401" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="5447:5458" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="5491:5497" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="5545:5556" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="5586:5592" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="5631:5642" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="5686:5692" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="5737:5748" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="5789:5795" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="5832:5843" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="5859:5865" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="5896:5907" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="5926:5932" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="5965:5976" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="5997:6003" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="6044:6055" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="6075:6081" ph=" }" />
-            <marker date="1256393464000" expanded="true" signature="6127:6521" ph="{...}" />
-            <marker date="1256393464000" expanded="false" signature="6555:6566" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="6591:6597" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="6638:6649" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="6672:6678" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="6727:6738" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="6765:6771" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="6826:6837" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="6874:6880" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="6918:6929" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="6958:6964" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="7019:7030" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="7063:7069" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="7117:7128" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="7163:7169" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="7214:7225" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="7258:7264" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="7310:7321" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="7355:7361" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="7415:7426" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="7459:7465" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="7520:7531" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="7565:7571" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="7615:7626" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="7657:7663" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="7720:7731" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="7766:7772" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="7825:7836" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="7876:7882" ph=" }" />
-            <marker date="1256393464000" expanded="true" signature="7945:8001" ph="{...}" />
-            <marker date="1256393464000" expanded="true" signature="8066:8127" ph="{...}" />
-            <marker date="1256393464000" expanded="true" signature="8184:8246" ph="{...}" />
-            <marker date="1256393464000" expanded="false" signature="8297:8308" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="8337:8343" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="8379:8390" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="8413:8419" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="8453:8464" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="8485:8491" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="8538:8549" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="8574:8580" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="8616:8627" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="8650:8656" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="8707:8718" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="8747:8753" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="8794:8805" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="8833:8839" ph=" }" />
-            <marker date="1256393464000" expanded="true" signature="8901:8961" ph="{...}" />
-            <marker date="1256393464000" expanded="false" signature="8990:9001" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="9021:9027" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="9068:9079" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="9102:9108" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="9144:9155" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="9179:9185" ph=" }" />
-            <marker date="1256393464000" expanded="false" signature="9237:9248" ph=" { " />
-            <marker date="1256393464000" expanded="false" signature="9279:9285" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3404,84 +3235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="236" column="0" lean-forward="false" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
-          <folding>
-            <marker date="1522625139923" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1522625139923" expanded="false" signature="175:186" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="222:228" ph=" }" />
-            <marker date="1522625139923" expanded="true" signature="301:353" ph="{...}" />
-            <marker date="1522625139923" expanded="false" signature="414:425" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="461:467" ph=" }" />
-            <marker date="1522625139923" expanded="true" signature="535:587" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="654:706" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="771:823" ph="{...}" />
-            <marker date="1522625139923" expanded="false" signature="876:887" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="923:929" ph=" }" />
-            <marker date="1522625139923" expanded="false" signature="970:981" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="1017:1023" ph=" }" />
-            <marker date="1522625139923" expanded="false" signature="1073:1084" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="1120:1126" ph=" }" />
-            <marker date="1522625139923" expanded="true" signature="1167:3958" ph="{...}" />
-            <marker date="1522625139923" expanded="false" signature="1248:1263" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="1299:1309" ph=" }" />
-            <marker date="1522625139923" expanded="false" signature="1343:1358" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="1394:1404" ph=" }" />
-            <marker date="1522625139923" expanded="true" signature="1448:3952" ph="{...}" />
-            <marker date="1522625139923" expanded="false" signature="1478:1497" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="1533:1547" ph=" }" />
-            <marker date="1522625139923" expanded="false" signature="1601:1620" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="1656:1670" ph=" }" />
-            <marker date="1522625139923" expanded="true" signature="1773:1841" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="1912:1980" ph="{...}" />
-            <marker date="1522625139923" expanded="false" signature="2040:2059" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="2095:2109" ph=" }" />
-            <marker date="1522625139923" expanded="true" signature="2187:2255" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="2334:2402" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="2485:2553" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="2626:2694" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="2768:2836" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="2921:2989" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="3062:3130" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="3194:3262" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="3344:3412" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="3493:3561" ph="{...}" />
-            <marker date="1522625139923" expanded="false" signature="3622:3641" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="3677:3691" ph=" }" />
-            <marker date="1522625139923" expanded="true" signature="3757:3825" ph="{...}" />
-            <marker date="1522625139923" expanded="false" signature="3873:3892" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="3928:3942" ph=" }" />
-            <marker date="1522625139923" expanded="true" signature="4003:7457" ph="{...}" />
-            <marker date="1522625139923" expanded="false" signature="4092:4107" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="4143:4153" ph=" }" />
-            <marker date="1522625139923" expanded="false" signature="4187:4202" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="4238:4248" ph=" }" />
-            <marker date="1522625139923" expanded="true" signature="4292:7451" ph="{...}" />
-            <marker date="1522625139923" expanded="false" signature="4322:4341" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="4377:4391" ph=" }" />
-            <marker date="1522625139923" expanded="false" signature="4451:4470" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="4506:4520" ph=" }" />
-            <marker date="1522625139923" expanded="true" signature="4585:4653" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="4718:4786" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="4855:4923" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="4992:5060" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="5131:5199" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="5270:5338" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="5415:5483" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="5560:5628" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="5708:5776" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="5850:5918" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="5992:6060" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="6140:6208" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="6280:6348" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="6420:6488" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="6557:6625" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="6693:6761" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="6838:6906" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="6980:7048" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="7114:7182" ph="{...}" />
-            <marker date="1522625139923" expanded="true" signature="7252:7320" ph="{...}" />
-            <marker date="1522625139923" expanded="false" signature="7372:7391" ph=" { " />
-            <marker date="1522625139923" expanded="false" signature="7427:7441" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3489,7 +3242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3519,6 +3271,41 @@
         <state relative-caret-position="139">
           <caret line="556" column="80" lean-forward="false" selection-start-line="556" selection-start-column="80" selection-end-line="556" selection-end-column="80" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/ResumenAnual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Business/MovimientosBL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="608" column="72" lean-forward="false" selection-start-line="608" selection-start-column="72" selection-end-line="608" selection-end-column="72" />
+          <folding>
+            <element signature="method#IngresarCuotas#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#IngresarDeuda#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#GetCuotaByIdMovimiento#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#GetTotales#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#GetAllCuotas#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#GetMovimientoById#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#GetAllDeudas#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#UpdateDeuda#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#UpdateTotalDeuda#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#UpdateTotalCuota#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#DeleteCuota#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#DeleteDeuda#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#ActualizarCuotas#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#GetMovimientosProcesados#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#GetCategoriaByName#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#GetTipoByName#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#DeleteMovimientoById#0;class#MovimientosBL#0" expanded="false" />
+            <element signature="method#GetAllMvimientosSorted#0;class#MovimientosBL#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

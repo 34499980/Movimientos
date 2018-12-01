@@ -556,9 +556,10 @@ public class MovimientosBL {
 
         while(firstAño-1 != lastAño)
         {
-            total.Año = lastAño;
-            total.Mes = lastMes;
-            List<Movimiento> movimientos = GetMovimientosByMes(db,lastMes,lastAño);
+           // total.Año = lastAño;
+           // total.Mes = lastMes;
+            List<Movimiento> movimientos = GetMovimientosByMes(db,firstMes,lastAño);
+
             index = movimientos.size()-1;
             while(index > Constants.FinLista){
 
@@ -604,12 +605,14 @@ public class MovimientosBL {
             }
             total.Saldo = (total.Ingreso+total.Venta)-total.Compra;
             if(total.Compra != 0 || total.Venta != 0 || total.Ingreso != 0) {
+                total.Año = movimientos.get(movimientos.size()-1).Año;
+                total.Mes = movimientos.get(movimientos.size()-1).IdMes;
                 listTotales.add(total);
             }
             total = new Totales();
-            lastMes--;
-            if(lastMes <= 0 && lastAño > firstAño-1){
-                lastMes = 12;
+            firstMes--;
+            if(firstMes <= 0 && lastAño > firstAño-1){
+                firstMes = 12;
                 lastAño--;
 
             }
