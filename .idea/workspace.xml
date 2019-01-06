@@ -20,8 +20,6 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/build/intermediates/build-info/debug/build-info.xml" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/Business/MovimientosBL.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/android/holamundo/app1/Business/MovimientosBL.class" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/Business/MovimientosBL.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/Business/MovimientosBL.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$5.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual$5.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual.class" afterPath="$PROJECT_DIR$/build/intermediates/incremental-verifier/debug/com/android/holamundo/app1/ResumenMensual.class" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" />
@@ -35,24 +33,18 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/Hq+xYI+YTQVOmfim0kZblcMasWI=" afterPath="" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/instant-run-apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/build/intermediates/instant-run-apk/debug/app-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_0.apk" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/resources-debug.ap_" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_2.apk" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_3.apk" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_5.apk" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_7.apk" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/build/intermediates/split-apk/debug/slices/slice_8.apk" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0.jar" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Business/MovimientosBL.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/Business/MovimientosBL.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$5.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual$5.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/0/com/android/holamundo/app1/ResumenMensual.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/__content__.json" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRun/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/5/com/android/holamundo/app1/Business/MovimientosBL.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/5/com/android/holamundo/app1/Business/MovimientosBL.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$5.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual$5.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual.class" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/7/com/android/holamundo/app1/ResumenMensual.class" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/__content__.json" afterPath="$PROJECT_DIR$/build/intermediates/transforms/instantRunSlicer/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/debug/app-debug.apk" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Business/MovimientosBL.java" afterPath="$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Business/MovimientosBL.java" />
     </list>
@@ -91,8 +83,8 @@
       <file leaf-file-name="ResumenAnual.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/ResumenAnual.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+            <state relative-caret-position="495">
+              <caret line="136" column="43" lean-forward="false" selection-start-line="136" selection-start-column="43" selection-end-line="136" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -101,8 +93,8 @@
       <file leaf-file-name="MovimientosBL.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Business/MovimientosBL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="608" column="72" lean-forward="false" selection-start-line="608" selection-start-column="72" selection-end-line="608" selection-end-column="72" />
+            <state relative-caret-position="166">
+              <caret line="560" column="0" lean-forward="false" selection-start-line="560" selection-start-column="0" selection-end-line="560" selection-end-column="0" />
               <folding>
                 <element signature="method#IngresarCuotas#0;class#MovimientosBL#0" expanded="false" />
                 <element signature="method#IngresarDeuda#0;class#MovimientosBL#0" expanded="false" />
@@ -2125,8 +2117,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
@@ -2150,7 +2142,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2556,7 +2548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543594318343</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Solucion de resumen anual">
+      <created>1543700859651</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1543700859651</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2569,7 +2568,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2585,13 +2584,13 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.49325627" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25128207" sideWeight="0.48865354" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25373134" sideWeight="0.49325627" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25083613" sideWeight="0.48865354" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3897436" sideWeight="0.4828851" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38907468" sideWeight="0.4828851" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2672,7 +2671,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="Arreglo el click de la deuda." />
     <MESSAGE value="Arreglo edit vacio en deudas" />
     <MESSAGE value="Actualiza movimientos en pantalla de resumen por mes" />
     <MESSAGE value="Finalizo pantalla de Resumen mensual" />
@@ -2697,7 +2695,8 @@
     <MESSAGE value="Solucion de errores en resumen anual y mensual" />
     <MESSAGE value="Agrando scroll de categoria" />
     <MESSAGE value="Arreglo la creación del excel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arreglo la creación del excel" />
+    <MESSAGE value="Solucion de resumen anual" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solucion de resumen anual" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2798,18 +2797,14 @@
           <properties />
           <option name="timeStamp" value="257" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Business/MovimientosBL.java</url>
-          <line>621</line>
-          <properties />
-          <option name="timeStamp" value="263" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="264" />
+      <option name="time" value="270" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="app">
-        <watch expression="listMovmientos" language="JAVA" />
+        <watch expression="firstAño" language="JAVA" />
+        <watch expression="firstMes" language="JAVA" />
+        <watch expression="lastAño" language="JAVA" />
         <watch expression="listTotales" language="JAVA" />
       </configuration>
     </watches-manager>
@@ -2818,6 +2813,21 @@
     <expressions id="watch">
       <expression>
         <expression-string>listTotales</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>firstMes</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>lastAño</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>firstAño</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -2843,21 +2853,6 @@
       </expression>
       <expression>
         <expression-string>table</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>total</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>listCompra.get(index).IdMovimiento</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>listCompra</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -3091,7 +3086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="41" column="62" lean-forward="false" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3246,9 +3240,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
@@ -3256,6 +3247,9 @@
             <element signature="e#4771#4811#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Helper/General.java">
@@ -3276,16 +3270,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/ResumenAnual.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+        <state relative-caret-position="495">
+          <caret line="136" column="43" lean-forward="false" selection-start-line="136" selection-start-column="43" selection-end-line="136" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/android/holamundo/app1/Business/MovimientosBL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="608" column="72" lean-forward="false" selection-start-line="608" selection-start-column="72" selection-end-line="608" selection-end-column="72" />
+        <state relative-caret-position="166">
+          <caret line="560" column="0" lean-forward="false" selection-start-line="560" selection-start-column="0" selection-end-line="560" selection-end-column="0" />
           <folding>
             <element signature="method#IngresarCuotas#0;class#MovimientosBL#0" expanded="false" />
             <element signature="method#IngresarDeuda#0;class#MovimientosBL#0" expanded="false" />

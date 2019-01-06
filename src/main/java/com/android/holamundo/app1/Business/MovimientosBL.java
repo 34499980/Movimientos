@@ -554,11 +554,11 @@ public class MovimientosBL {
 
 
 
-        while(firstAño-1 != lastAño)
+        while(firstAño-1 <= lastAño)
         {
            // total.Año = lastAño;
            // total.Mes = lastMes;
-            List<Movimiento> movimientos = GetMovimientosByMes(db,firstMes,lastAño);
+            List<Movimiento> movimientos = GetMovimientosByMes(db,firstMes-1,lastAño);
 
             index = movimientos.size()-1;
             while(index > Constants.FinLista){
@@ -611,7 +611,7 @@ public class MovimientosBL {
             }
             total = new Totales();
             firstMes--;
-            if(firstMes <= 0 && lastAño > firstAño-1){
+            if(firstMes <= 0){
                 firstMes = 12;
                 lastAño--;
 
