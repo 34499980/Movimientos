@@ -97,6 +97,7 @@ public class MovimientosBL {
         Usuario user = Usuario.getUsuario();
         Calendar cal = Calendar.getInstance();
         int mes = cal.get(Calendar.MONTH);
+        int año = cal.get(Calendar.YEAR);
         Movimiento mov;
         int IdCategoriaAnt;
         Map<String,List<Movimiento>> listas = new HashMap<>();
@@ -104,7 +105,7 @@ public class MovimientosBL {
         List<Movimiento> listMovimientosCompra = new ArrayList<>();
         List<Movimiento> listMovimientosVenta = new ArrayList<>();
         List<Movimiento> listMovimientosIngresos = new ArrayList<>();
-        String query = "SELECT * FROM " + Constants.SQLTABLES.MOVIMIENTOS + " WHERE IdUsuario=" + user.Id + " and IdMes=" + mes + " ORDER BY IdCategoria";
+        String query = "SELECT * FROM " + Constants.SQLTABLES.MOVIMIENTOS + " WHERE IdUsuario=" + user.Id + " and IdMes=" + mes + " and Ano="+ año+" ORDER BY IdCategoria";
         Cursor c = DataBase.Traer(query, db);
         while (c.moveToNext()) {
             mov = new Movimiento();
