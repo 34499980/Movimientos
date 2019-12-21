@@ -559,7 +559,7 @@ public class MovimientosBL {
         {
            // total.Año = lastAño;
            // total.Mes = lastMes;
-            List<Movimiento> movimientos = GetMovimientosByMes(db,firstMes-1,lastAño);
+            List<Movimiento> movimientos = GetMovimientosByMes(db,firstMes,lastAño);
 
             index = movimientos.size()-1;
             while(index > Constants.FinLista){

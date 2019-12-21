@@ -412,6 +412,7 @@ public class ResumenMensual extends AppCompatActivity {
                         });
 
                         CargarCategorias();
+
                         spnCat.setSelection(listMovimientos.get(index).IdCategoria);
 
                         final EditText edtDesc = (EditText) mView.findViewById(R.id.dialogEdtDesc);
@@ -438,10 +439,13 @@ public class ResumenMensual extends AppCompatActivity {
                         final EditText edtCant = (EditText) mView.findViewById(R.id.dialogEdtCant);
                         edtCant.setText(String.valueOf(listMovimientos.get(index).Cant == -1 ? 0 : listMovimientos.get(index).Cant));
 
-
-                        builder.setView(mView);
-                        AlertDialog dialog = builder.create();
-                        dialog.show();
+                        try {
+                            builder.setView(mView);
+                            AlertDialog dialog = builder.create();
+                            dialog.show();
+                        }catch(Exception ex){
+                            Toast.makeText(getApplicationContext(), "Hubo un error al cargar la pantalla", Toast.LENGTH_SHORT).show();
+                        }
                     }
                 });
 
